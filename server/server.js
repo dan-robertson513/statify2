@@ -10,7 +10,7 @@ app.use(express.json()); // To parse JSON bodies
 const credentials = {
   clientId: "3403e2f7fbda47fdb88520d3975b6135",
   clientSecret: "91f5d764f3764e6f8ec12c4e2463c2ac",
-  redirectUri: "http://localhost:3000/callback",
+  redirectUri: "http://localhost:3000",
 };
 
 app.get("/", (req, res) => {
